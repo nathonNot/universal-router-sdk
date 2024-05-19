@@ -278,6 +278,10 @@ var CHAIN_CONFIGS = (_CHAIN_CONFIGS = {}, _CHAIN_CONFIGS[1] = {
   router: '0x0ffd3B53325e780a5811C81Df72d0F984D6Ff2F3',
   weth: '0x06565ed324Ee9fb4DB0FF80B7eDbE4Cb007555a3',
   creationBlock: 147972
+}, _CHAIN_CONFIGS[59144] = {
+  router: '0x7ecd616bcCC53AE13479157681689F99Ae83e5D0',
+  weth: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
+  creationBlock: 4686044
 }, _CHAIN_CONFIGS);
 var UNIVERSAL_ROUTER_ADDRESS = function UNIVERSAL_ROUTER_ADDRESS(chainId) {
   if (!(chainId in CHAIN_CONFIGS)) throw new Error("Universal Router not deployed on chain " + chainId);
